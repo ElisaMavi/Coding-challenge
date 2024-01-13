@@ -1,0 +1,98 @@
+body {
+    background-image: url(Immagini/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.container {
+    width: 1000px;
+    height: 650px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 90px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.headline {
+    text-align: center;
+    color: limegreen; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.logo {
+    width: 220px;
+}
+
+nav {
+    background-color: limegreen;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    line-height: 40px; /*Questo centra i button nella barra di navigazione*/
+}
+
+section > div {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav > input{
+    border-color: thick;
+}
+
+.name {
+    font-size: 30px;
+}
+
+main {
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.address {
+    content: "\27FC";
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.arrow:after {
+    content: "\21A6";
+}
+
+.bar1, .bar2, .bar3 {
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 8px; 
+}
+
+.bar1 {
+    background-color: rgb(243, 170, 82);
+    width: 38%;
+}
+    
+.bar2 {
+    background-color: limegreen;
+    width: 60%;
+   }
+
+.bar3 {
+    background-color: rgb(175, 61, 61);
+    width: 15%;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.scooter {
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
